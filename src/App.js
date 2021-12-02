@@ -2,14 +2,15 @@ import { useState } from "react";
 import "./styles.css";
 
 var emojiDictionary = {
-  "😂": "Happy",
-  "😥": "Sad",
-  "😭": "Cry",
-  "😊": "Smiling",
-  "😨": "Disbelief",
-  "😠": "Angry",
-  "🥱": "Sleepy",
-  "🤐": "Silent"
+  "🐶": "Dog",
+  "🐯": "Tiger",
+  "🐵": "Monkey",
+  "🐷": "Pig",
+  "🐴": "Horse",
+  "🐜": "Ant",
+  "🐘": "Elephant",
+  "🐬": "Dolphin",
+  "🐊": "Crocodile"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
